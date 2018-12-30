@@ -6,7 +6,6 @@
 //  Copyright © 2018 applozic Inc. All rights reserved.
 //
 
-
 #import <Foundation/Foundation.h>
 
 @interface ALMessageBuilder : NSObject
