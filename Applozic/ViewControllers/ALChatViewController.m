@@ -94,7 +94,7 @@ NSString * const ThirdPartyDetailVCNotificationChannelKey = @"ThirdPartyDetailVC
 @property (nonatomic, retain) UIImagePickerController * mImagePicker;
 @property (nonatomic, strong) ALLocationManager * alLocationManager;
 @property (nonatomic, assign) BOOL showloadEarlierAction;
-@property (nonatomic, weak) IBOutlet UIButton *loadEarlierAction;
+//@property (nonatomic, weak) IBOutlet UIButton *loadEarlierAction;
 @property (nonatomic, weak) NSIndexPath *indexPathofSelection;
 @property (nonatomic, strong) ALMQTTConversationService *mqttObject;
 @property (nonatomic) NSInteger  mqttRetryCount;

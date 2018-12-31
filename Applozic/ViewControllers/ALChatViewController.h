@@ -57,6 +57,9 @@ extern NSString * const ThirdPartyDetailVCNotificationChannelKey;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *tableViewBottomToAttachment;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *tableViewTop2Constraint;
 
+@property (nonatomic, weak) IBOutlet UIButton *loadEarlierAction;
+
+
 @property (strong, nonatomic) id <ALChatViewControllerDelegate> chatViewDelegate;
 
 -(void)fetchAndRefresh;
