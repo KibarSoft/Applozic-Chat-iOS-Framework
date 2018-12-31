@@ -228,6 +228,8 @@ NSString * const ThirdPartyDetailVCNotificationChannelKey = @"ThirdPartyDetailVC
         [self handleMessageForward:self.alMessage];
 
     }
+    [[NSNotificationCenter defaultCenter] postNotificationName:NSNotification.ALChatViewDidAppear object:nil];
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -403,6 +405,7 @@ NSString * const ThirdPartyDetailVCNotificationChannelKey = @"ThirdPartyDetailVC
     [self loadMessagesForOpenChannel];
 
 
+    [[NSNotificationCenter defaultCenter] postNotificationName:NSNotification.ALChatViewWillAppear object:nil];
 }
 
 -(void)setFreezeForAddingRemovingUser:(NSNotification *)notifyObject
