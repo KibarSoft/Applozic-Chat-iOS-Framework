@@ -18,8 +18,7 @@ public extension Notification.Name {
     }
     
     //This value MUST match the one defined in ALMessageService.h && ALChatViewController.m
-    static let AL_NEW_MESSAGE_NOTIFICATION = NSNotification.Name("newMessageNotification")
-    }
+    static let AL_NEW_MESSAGE_NOTIFICATION = NSNotification.Name("newMessageNotification")    
 }
 
 @objc extension NSNotification {
