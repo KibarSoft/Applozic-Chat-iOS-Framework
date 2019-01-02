@@ -17,8 +17,9 @@ public extension Notification.Name {
         return .init(rawValue: "Kibarsoft.Applozic.ALChatViewDidAppear")
     }
     
+    //This value MUST match the one defined in ALMessageService.h && ALChatViewController.m
     static var AL_NEW_MESSAGE_NOTIFICATION: Notification.Name {
-        return .init(rawValue: "Kibarsoft.Applozic.AL_NEW_MESSAGE_NOTIFICATION")
+        return .init(rawValue: "newMessageNotification")
     }
 }
 
